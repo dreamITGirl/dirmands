@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<!-- 1、在 <html> 中，指定文档的基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!-- 2、定义 viewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!-- 3、指定跨(IE)浏览器兼容性 -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!--4、引入 bootstrap.css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>灵动钻石官网</title>
+    <!--5、引入两个兼容性的JS文件-->
+    <!--[if lt IE 9]>
+    <script src="../public/js/html5shiv.min.js"></script>
+    <script src="../public/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--网页顶部-->
+<div id="header">
+  <ul class="=list-unstyled headerlistlf">
+    <li><a href="index.html">欢迎来到灵动钻石网</a></li>
+    <li><a href="login.html">登录</a></li>
+    <li><a href="reginster.html">注册</a></li>
+</ul>
+    <div class="shoppcart">
+        <p class="txtcart">购物车</p>
+    </div>
+    <div id="shoppingcontent">
+        <b></b>
+        购物车中还没有商品，赶紧选购吧！
+    </div>
+  <ul class="list-unstyled rightlist" id="hidens">
+    <li><a href="#">我的订单</a></li>
+    <li><a href="#">我的鸟巢</a></li>
+    <li><a href="#">钻石课堂</a></li>
+    <li><a href="telStation.html">手机官网</a></li>
+</ul>
+    <div id="btncnt">
+        <button type="button" class="btn btn-default" id="btns">
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </button>
+    </div>
+</div>
+<!--网页top部分-->
+<div id="top" class="container">
+    <div class="row">
+        <div class="col-sm-3 col-xs-3">
+            <img src="images/logo.png" class="img-responsive" id="logoimg">
+        </div>
+        <div class="col-sm-6 col-sm-offset-3">
+            <input type="search" placeholder="戒指" class="form-control search">
+            <a id="bg-search" href="#"></a>
+            <a href="#" id="comestore">来店预约</a>
+        </div>
+    </div>
+    <div id="nav">
+        <ul class="list-unstyled catogry">
+            <li>
+                <a href="index.html">首页</a>
+                <div class="hidebox hiden">
+                    <div class="rightpart">
+                        <img src="images/nav_list1.jpg" class="img-responsive animated swing">
+                    </div>
+                    <div class="leftpart">
+                        <img src="images/drword.png" class="img-responsive">
+                        <a href="#" class="login">加入灵动</a>
+                        <button class="btn btn-default">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="productlist.html">求婚钻戒</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart navring">
+                        <div class="imglist">
+                            <img src="images/cata_1.jpg" class="img-responsive">
+                            <img src="images/cata_2.jpg" class="img-responsive hiden" >
+                            <img src="images/cata_3.jpg" class="img-responsive hiden">
+                            <img src="images/cata_4.jpg"  class="img-responsive hiden">
+                            <img src="images/cata_5.jpg"  class="img-responsive hiden">
+                        </div>
+                        <ul class="catalog firstring">
+                            <li><a href="#">稀世粉钻</a></li>
+                            <li><a href="#">MY HEART系列</a></li>
+                            <li><a href="#">FOREVER系列</a></li>
+                            <li><a href="#">TRUE LOVE系列</a></li>
+                            <li><a href="#">I SWEAR系列</a></li>
+                        </ul>
+                    </div>
+                    <div class="rightpart spec">
+                        <img src="images/my_heart.jpg" class="img-responsive justyou">
+                        <img src="images/my_heat_1.jpg" class="img-responsive justyou hiden">
+                        <img src="images/my_heat_2.jpg" class="img-responsive justyou hiden">
+                        <img src="images/my_heat_3.jpg" class="img-responsive justyou hiden">
+                        <img src="images/my_heat_4.jpg" class="img-responsive justyou hiden">
+                        <ul id="" class="list-unstyled rightpartnav">
+                            <li><a href="#">JUST YOU系列</a></li>
+                            <li><a href="#">BELIEVE系列</a></li>
+                            <li><a href="#">LOVE LINE系列</a></li>
+                            <li><a href="#">PRINCESS系列</a></li>
+                            <li><a href="#">查看全部商品</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">爱的礼物</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart navring ">
+                        <div  class="imglist">
+                            <img src="images/cata_5.jpg" class="img-responsive ">
+                            <img src="images/cata_6.jpg" class="img-responsive hiden">
+                            <img src="images/cata_7.jpg" class="img-responsive hiden">
+                            <img src="images/cata_8.jpg" class="img-responsive hiden">
+                            <img src="images/cart_9.jpg" class="img-responsive hiden">
+                        </div>
+                        <ul class="catalog firstring">
+                            <li><a href="#">铂金对戒</a></li>
+                            <li><a href="#">男款对戒</a></li>
+                            <li><a href="#">女款对戒</a></li>
+                            <li><a href="#">YOU & ME系列</a></li>
+                            <li><a href="#">皇冠系列</a></li>
+                        </ul>
+                    </div>
+                    <div class="rightpart spec">
+                        <img src="images/1.jpg" class="img-responsive justyou">
+                        <img src="images/2.jpg" class="img-responsive justyou hiden">
+                        <img src="images/3.jpg" class="img-responsive justyou  hiden">
+                        <img src="images/4.jpg" class="img-responsive justyou  hiden">
+                        <img src="images/5.jpg" class="img-responsive justyou  hiden">
+                        <ul  class="list-unstyled rightpartnav">
+                            <li><a href="#">十二星座吊坠</a></li>
+                            <li><a href="#">纪念日礼物</a></li>
+                            <li><a href="#">节日礼物</a></li>
+                            <li><a href="#">生日礼物</a></li>
+                            <li><a href="#">查看全部商品</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">钻石定制</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart navring ">
+                        <div class="imglist">
+                            <img src="images/cart_10.jpg" class="img-responsive ">
+                            <img src="images/cart_11.jpg" class="img-responsive hiden">
+                            <img src="images/cart_12.jpg" class="img-responsive hiden">
+                            <img src="images/cart_13.jpg" class="img-responsive hiden">
+                            <img src="images/cart_14.jpg" class="img-responsive hiden">
+                        </div>
+                        <ul class="catalog firstring">
+                            <li><a href="#">经典直臂款戒托</a></li>
+                            <li><a href="#">异形钻石戒托</a></li>
+                            <li><a href="#">北极光款戒托</a></li>
+                            <li><a href="#">火玫瑰款戒托</a></li>
+                            <li><a href="#">简约扭臂款戒托</a></li>
+                        </ul>
+                    </div>
+                    <div class="rightpart spec">
+                        <img src="images/6.jpg" class="img-responsive justyou">
+                        <img src="images/7.jpg" class="img-responsive justyou hiden">
+                        <img src="images/8.jpg" class="img-responsive justyou hiden">
+                        <img src="images/9.jpg" class="img-responsive justyou hiden">
+                        <img src="images/10.jpg" class="img-responsive justyou hiden">
+                        <ul  class="list-unstyled rightpartnav">
+                            <li><a href="#">钻石4C</a></li>
+                            <li><a href="#">戒托款式</a></li>
+                            <li><a href="#">戒托材质</a></li>
+                            <li><a href="#">手寸测量</a></li>
+                            <li><a href="#">私人订制</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">实体店</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart " id="hotcities">
+                        <h5><a href="#">热门城市</a></h5>
+                        <ul class="citied list-unstyled">
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">上海</a></li>
+                            <li><a href="#">广州</a></li>
+                            <li><a href="#">深圳</a></li>
+                            <li><a href="#">香港</a></li>
+                        </ul>
+                        <ul class="list-unstyled locate">
+                            <li><a href="#">华北区</a></li>
+                            <li><a href="#">华中区</a></li>
+                            <li><a href="#">华南区</a></li>
+                            <li><a href="#">华东区</a></li>
+                            <li><a href="#">西南区</a></li>
+                        </ul>
+                        <p id="square"><b></b></p>
+                        <hr>
+                    </div>
+                    <div class="rightpart" id="locations">
+                        <div id="dmslider" class="list-unstyled">
+                            <a href="#" target="_blank">
+                                <img src="images/nav_list1.jpg" class="img-responsive ">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="images/nav_list2.jpg" class="img-responsive ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">品牌文化</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart culture">
+                        <img src="images/nav_list6.jpg" class="img-responsive animated bounceInLeft">
+                        <p>DR故事</p>
+                    </div>
+                    <div class="rightpart">
+                        <img src="images/nav_list7.jpg" class="img-responsive animated brandculture bounceInRight">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">探索灵动</a>
+                <div class="hidebox hiden">
+                    <div class="leftpart">
+                        <img src="images/drimg.jpg" class="  img-responsive animated rotateIn">
+                    </div>
+                    <div class="rightpart">
+                        <img src="images/nav_list5.jpg" class="img-responsive animated rotateInUpLeft">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--banner部分-->
+<div id="banner">
+   <ul id="imglist" class="list-unstyled">
+       <!--动态加载-->
+   </ul>
+    <ul id="indexs" class="list-unstyled">
+    </ul>
+</div>
+ <!--链接主体和banner部分-->
+<div class="conn clear">
+    <div class="first_conn">
+        <h2>设计订婚戒指</h2>
+        <div class="slider_bg">
+           <p></p>
+        </div>
+        <a href="#" class="btn_btna">从挑选钻石开始</a>
+        <a href="#" class="btn_btna">从挑选款式开始</a>
+    </div>
+    <div class="second_conn">
+        <a>
+            <img src="images/banner_slider1.jpg" class="animated">
+        </a>
+    </div>
+</div>
+<!--网页主体部分-->
+<section id="main">
+  <h2>系列产品</h2>
+  <div id="slider_main">
+      <ul class="list-unstyled slider_box">
+         <li class="active">推荐</li>
+         <li>钻石</li>
+         <li>婚戒</li>
+         <li>钻戒</li>
+         <li>配饰</li>
+     </ul>
+      <div class="box">
+             <span class="leftpart">
+                 <a href="#">
+                     <img src="images/sect_lf_11.jpg">
+                 </a>
+                 <a href="#">
+                     <img src="images/sect_lf_12.jpg">
+                 </a>
+             </span>
+          <a class="rightpart">
+              <img src="images/sect13.jpg">
+          </a>
+      </div>
+      <div class="hiden">
+             <span class="leftpart">
+                 <a href="#">
+                     <img src="images/sect_lf_21.jpg">
+                 </a>
+                 <a href="#">
+                     <img src="images/sect_lf_22.jpg">
+                 </a>
+             </span>
+          <a class="rightpart">
+              <img src="images/sect23.jpg">
+          </a>
+      </div>
+      <div class="hiden">
+             <span class="leftpart">
+                 <a href="#">
+                     <img src="images/sect_lf_11.jpg">
+                 </a>
+                 <a href="#">
+                     <img src="images/select_lf_32.jpg">
+                 </a>
+             </span>
+          <a class="rightpart">
+              <img src="images/sect33.jpg">
+          </a>
+      </div>
+      <div class="hiden">
+             <span class="leftpart">
+                 <a href="#">
+                     <img src="images/sect_lf_41.jpg">
+                 </a>
+                 <a href="#">
+                     <img src="images/sect_lf_42.jpg">
+                 </a>
+             </span>
+          <a class="rightpart">
+              <img src="images/sect43.jpg">
+          </a>
+      </div>
+      <div class="hiden">
+             <span class="leftpart">
+                 <a href="#">
+                     <img src="images/sect_lf_51.jpg">
+                 </a>
+                 <a href="#">
+                     <img src="images/select_lf_52.jpg">
+                 </a>
+             </span>
+          <a class="rightpart">
+              <img src="images/sect13.jpg">
+          </a>
+      </div>
+  </div>
+  <h2>婚戒推荐&全球美钻</h2>
+  <div class="upwalk">
+   <ul class="list-unstyled conn_slider">
+    <li><img src="images/cart_15.jpg"></li>
+    <li><img src="images/cart_14.jpg"></li>
+    <li><img src="images/cart_13.jpg"></li>
+    <li><img src="images/cart_10.jpg"></li>
+    <li><img src="images/cart_9.jpg"></li>
+    <li><img src="images/cata_3.jpg"></li>
+    <li><img src="images/cata_6.jpg"></li>
+    <li><img src="images/cata_5.jpg"></li>
+   </ul>
+   <span class="prev "></span>
+   <span class="next"></span>
+  </div>
+  <div id="category">
+    <span>
+        <i></i>
+        <a href="#">ROUND</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">PRINCESS</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">CUSHION</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">EMERALD</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">OVAL</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">RADIANT</a>
+    </span>
+     <span>
+        <i></i>
+        <a href="#">ARQUISE</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">PEAR</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">HREAT</a>
+    </span>
+    <span>
+        <i></i>
+        <a href="#">TRILLION</a>
+    </span>
+  </div>
+  <div id="img_show">
+     <div >
+       <img src="images/img_showlf.jpg">
+       <img src="images/img_showrt.gif">
+     </div>
+     <img src="images/banner_8.jpg">
+  </div>
+  <hr>
+  <div id="locates">
+    <ul class="cities list-unstyled">
+      <li><a href="#" >上海 </a>/</li>
+      <li><a href="#">北京 </a>/</li>
+      <li><a href="#">广州 </a>/</li>
+      <li><a href="#">成都 </a>/</li>
+      <li><a href="#">杭州 </a>/</li>
+      <li><a href="#">南京 </a>/</li>
+      <li><a href="#">苏州 </a>/</li>
+      <li><a href="#">济南 </a>/</li>
+      <li><a href="#">重庆 </a>/</li>
+      <li><a href="#">青岛 </a>/</li>
+      <li><a href="#">海南 </a>/</li>
+  </ul>
+  <div class="mapcities">
+   <img src="images/st_1.jpg">
+       <div class="locatecities ">
+         <ul class=" list-unstyled">
+           <li><h3>上海体验店</h3></li>
+             <li>上海市黄浦区南京东路110号</li>
+             <li>周一至周五：10:00--20:00</li>
+             <li>周六周日：10:00--20:30</li>
+             <li>咨询电话：021-1234567</li>
+         </ul>
+         <input type="text" placeholder="免费发送地址到手机">
+         <button >在线预约进店</button>
+       </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>北京体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>广州体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>成都体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>杭州体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>南京体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>苏州体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>济南体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>重庆体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>青岛体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+       <div class="locatecities hiden">
+              <ul class=" list-unstyled">
+                  <li><h3>海南体验店</h3></li>
+                  <li>上海市黄浦区南京东路110号</li>
+                  <li>周一至周五：10:00--20:00</li>
+                  <li>周六周日：10:00--20:30</li>
+                  <li>咨询电话：021-1234567</li>
+              </ul>
+              <input type="text" placeholder="免费发送地址到手机">
+              <button >在线预约进店</button>
+          </div>
+   </div>
+  </div>
+  <div class="knowledge">
+    <div class="left">
+        <ul class="list-unstyled">
+            <li>资讯动态</li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">查看更多</a></li>
+        </ul>
+        <ul class="list-unstyled">
+            <li>资讯动态</li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">灵动钻石杭州体验中心十周年 匠心等待...</a></li>
+            <li><a href="#">查看更多</a></li>
+        </ul>
+    </div>
+    <img src="images/ad_01.jpg">
+  </div>
+</section>
+<!--网页底部-->
+<footer id="footer">
+  <img src="images/footer_lnks.jpg">
+  <div class="cartinfro">
+    <img src="images/logo.png" class="logo">
+    <ul class="list-unstyled">
+       <li>关于我们</li>
+       <li><a href="#">品牌简介</a></li>
+       <li><a href="#">市场合作</a></li>
+       <li><a href="#">诚聘贤才</a></li>
+       <li><a href="#">联系我们</a></li>
+       <li><a href="#">商务加盟</a></li>
+    </ul>
+    <ul class="list-unstyled">
+          <li>关于我们</li>
+          <li><a href="#">品牌简介</a></li>
+          <li><a href="#">市场合作</a></li>
+          <li><a href="#">诚聘贤才</a></li>
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">商务加盟</a></li>
+    </ul>
+    <ul class="list-unstyled">
+          <li>关于我们</li>
+          <li><a href="#">品牌简介</a></li>
+          <li><a href="#">市场合作</a></li>
+          <li><a href="#">诚聘贤才</a></li>
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">商务加盟</a></li>
+    </ul>
+    <ul class="list-unstyled">
+          <li>关于我们</li>
+          <li><a href="#">品牌简介</a></li>
+          <li><a href="#">市场合作</a></li>
+          <li><a href="#">诚聘贤才</a></li>
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">商务加盟</a></li>
+    </ul>
+    <ul class="list-unstyled">
+          <li>关于我们</li>
+          <li><a href="#">品牌简介</a></li>
+          <li><a href="#">市场合作</a></li>
+          <li><a href="#">诚聘贤才</a></li>
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">商务加盟</a></li>
+    </ul>
+    <img src="images/web_code.jpg" class="erweima">
+  </div>
+  <p><a href="#"></a></p>
+  <ul class="list-unstyled webinfro">
+      <li><a href="#">网站地图&nbsp;&nbsp;|</a></li>
+      <li><a href="#">友情链接&nbsp;&nbsp;|</a></li>
+      <li><a href="#">在线投诉&nbsp;&nbsp;|</a></li>
+      <li><a href="#">沪ICP备08011593号&nbsp;&nbsp;|</a></li>
+      <li>Copyright © 2002-2017 www.zbird.com&nbsp;&nbsp;钻石小鸟&nbsp;&nbsp;All Rights Reserved</li>
+  </ul>
+  <p> <span>上海铂利德钻石有限公司</span></p>
+  <ul class="list-unstyled certi">
+     <li><a href="#">
+         <img src="images/fot_certi.gif">
+     </a></li>
+     <li><a href="#">
+          <img src="images/fot_certi_02.jpg">
+     </a></li>
+     <li><a href="#">
+          <img src="images/fot_certi_03.jpg">
+     </a></li>
+     <li><a href="#">
+          <img src="images/fot_certi_04.jpg">
+      </a></li>
+      <li><a href="#">
+          <img src="images/picp_bg.png" style="width:105px">
+      </a></li>
+  </ul>
+</footer>
+<!--6、引入两个 行为依赖 JS文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/browser_preview.js"></script>
+<script src="js/common.js"></script>
+<script src="js/banner_slider.js"></script>
+<!--7、引入 测试文件 ：注意，真正上线时，该代码要删除-->
+<script src="js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>

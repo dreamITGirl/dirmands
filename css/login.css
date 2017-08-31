@@ -1,0 +1,198 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#header {
+  width: 100%;
+  height: 40px;
+  background: #F8E3DF;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+#header .enter {
+  display: flex;
+}
+#header .enter li {
+  margin-right: 20px;
+}
+#header .top_list {
+  display: flex;
+  margin-right: 20px;
+  position: relative;
+}
+#header .top_list li {
+  margin-right: 15px;
+  height: 30px;
+  width: 77px;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+#header .top_list li .shopping_cart {
+  border: 1px solid #ddd;
+  border-top: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  top: 30px;
+  right: 170px;
+  width: 290px;
+  height: 100px;
+  display: none;
+}
+#header .top_list li .shopping_cart i {
+  display: inline-block;
+  width: 57px;
+  height: 52px;
+  background: url("../images/iconlist_2.png") no-repeat;
+  margin-top: 5px;
+}
+#header .top_list #shopping:hover,
+#header .top_list .li_erweima:hover {
+  border: 1px solid #dddddd;
+  border-bottom: 0;
+  background-color: #fff;
+}
+#header .top_list #shopping:hover .shopping_cart {
+  display: block;
+}
+#header .top_list .dropdown-menu {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+#header .top_list .dropdown-menu li > a {
+  padding: 1px 13px;
+}
+#header .erweima {
+  border: 1px solid transparent;
+  position: relative;
+  display: none;
+}
+#header .erweima img {
+  position: absolute;
+  top: 6px;
+  right: -7px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+#header .li_erweima:hover .erweima {
+  display: block;
+}
+.conn {
+  background: #FBF2F1;
+  padding: 20px;
+}
+.conn img {
+  margin: 0 20px;
+}
+#main {
+  width: 100%;
+  background-color: #FADEDA;
+}
+#main img {
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+#login_form {
+  width: 425px;
+  min-height: 200px;
+  float: right;
+  margin: 0 115px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#login_form h3 {
+  margin-left: 10px;
+}
+#login_form .reginster {
+  float: right;
+  padding: 30px;
+}
+#login_form .reginster:hover {
+  color: #e4393c;
+}
+#login_form .bg_img {
+  background: url("../images/login/auth_main_login.jpg") no-repeat;
+}
+#login_form #login {
+  width: 370px;
+  min-height: 100px;
+  margin: 10px;
+  height: 385px;
+}
+#login_form #login .checked_box {
+  margin-left: 61px;
+}
+#login_form #login .checked_box input {
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  outline: none;
+  vertical-align: bottom;
+}
+#login_form #login .forgetpwd {
+  float: right;
+  margin-right: 102px;
+}
+#login_form #uname,
+#login_form #upwd {
+  width: 70%;
+  margin-left: 55px;
+  margin-top: 10px;
+}
+#login_form #uname {
+  margin-top: 30px;
+}
+#login_form .onlogin {
+  width: 75%;
+  margin-left: 41px;
+  margin-bottom: 20px;
+  background-color: #FEACA0;
+  color: #fff;
+  border: none;
+}
+.other_style {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 47px;
+}
+.other_style li {
+  width: 46px;
+  height: 46px;
+  margin: 10px;
+}
+.other_style li:first-child {
+  background: url("../images/login/qq-btn.jpg") no-repeat;
+}
+.other_style li:first-child:hover {
+  background-position: -46px 0;
+}
+.other_style li:nth-child(2) {
+  background: url("../images/login/weixin-btn.jpg") no-repeat;
+}
+.other_style li:nth-child(2):hover {
+  background-position: -46px 0;
+}
+.other_style li:nth-child(3) {
+  background: url("../images/login/sina-btn.jpg") no-repeat;
+}
+.other_style li:nth-child(3):hover {
+  background-position: -46px 0;
+}
+.other_style li:nth-child(4) {
+  background: url("../images/login/zhifubao-btn.jpg") no-repeat;
+}
+.other_style li:nth-child(4):hover {
+  background-position: -46px 0;
+}
+#footer {
+  margin-top: 0;
+}

@@ -1,0 +1,8 @@
+#main {
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main a {
+  text-decoration: none;
+}

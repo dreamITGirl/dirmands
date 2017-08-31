@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- 1、在 <html> 中，指定文档的基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!-- 2、定义 viewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!-- 3、指定跨(IE)浏览器兼容性 -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!--4、引入 bootstrap.css-->
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css">
+    <title>会员登录</title>
+    <!--5、引入两个兼容性的JS文件-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--网页顶部-->
+<header id="header" >
+    <ul class="list-unstyled enter">
+      <li><a href="index.html">欢迎进入灵越钻石网</a></li>
+      <li><a href="login.html">登录</a></li>
+      <li><a href="reginster.html">注册</a></li>
+    </ul>
+  <ul class="top_list list-unstyled">
+    <li id="shopping">
+        <img src="images/header_box.png">
+        <a href="#">购物车</a>
+        <div class="shopping_cart">
+            <i></i>
+           购物车中还没有商品，赶紧选购吧
+        </div>
+    </li>
+    <li><a href="#">我的订单</a></li>
+    <li class="dropdown">
+        <a href="#" data-toggle="dropdown">我的鸟巢
+                <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">订单查询</a></li>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">积分查询</a></li>
+            </ul>
+    </li>
+    <li><a href="#">钻石课堂</a></li>
+    <li class="li_erweima">
+        <a href="telStation.html">手机官网</a>
+        <div class="erweima">
+            <img src="images/code_wechat.jpg">
+        </div>
+    </li>
+  </ul>
+</header>
+<!--网页top部分-->
+<div class="conn">
+   <img src="images/logo.png">
+</div>
+<!--网页主体，登录页面-->
+<section id="main">
+    <img src="images/login/left_img.png" class="left_img">
+    <div id="login_form">
+        <a href="reginster.html" class="reginster">快速注册</a>
+        <h3>会员登录</h3>
+        <form   id="login" class="form-horizontal bg_img">
+            <div class="form-group">
+                <input type="text" placeholder="用户名" class="form-control" id="uname">
+            </div>
+            <div class="form-group">
+                 <input type="password" placeholder="密码" id="upwd" value="" class="form-control" >
+            </div>
+            <a href="#" class="forgetpwd">忘记密码</a>
+            <div class="form-group checked_box">
+                <input type="checkbox">自动登录
+            </div>
+            <input type="button" value="登录" class=" btn btn-default onlogin">
+
+            <ul class="list-unstyled other_style">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </form>
+    </div>
+</section>
+<!--网页底部-->
+<footer id="footer"></footer>
+
+<!--6、引入两个 行为依赖 JS文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/login.js"></script>
+
+
+
+
+
+
+<!--7、引入 测试文件 ：注意，真正上线时，该代码要删除-->
+<script src="js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>

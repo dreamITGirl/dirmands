@@ -1,0 +1,52 @@
+#login_form p {
+  float: right;
+  margin-top: 30px;
+}
+#login_form p a.reginster {
+  color: #e4393c;
+  float: none;
+}
+#login_form .fromtel {
+  display: flex;
+}
+#login_form #login {
+  background-color: #FCEDE9;
+  height: 342px;
+}
+#login_form #req_infro {
+  width: 31%;
+  margin-left: 55px;
+  margin-right: 12px;
+}
+#login_form #res_infro {
+  margin-left: 0;
+  width: 36%;
+  background-color: #FEB6AB;
+  color: #fff;
+  border: none;
+}
+#login_form .form-group input {
+  margin-left: 11px;
+  font-size: 12px;
+}
+#login_form .a_ufrom {
+  margin-left: 30px;
+  width: 108%;
+}
+#login_form #uname {
+  width: 70%;
+}
+#login_form #upwd,
+#login_form #againUpwd {
+  width: 70%;
+}
+#login_form #login .checked_box {
+  margin-left: 31px;
+}
+#login_form #login.onlogin {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+#tipMsg {
+  color: #e4393c;
+}
